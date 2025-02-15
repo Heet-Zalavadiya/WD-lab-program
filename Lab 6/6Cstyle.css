@@ -1,0 +1,119 @@
+.black {
+    background-color: black;
+    height: 15vh;
+    width: 100%;
+}
+
+.body-left {
+    float: left;
+    height: 100%;
+    background-color: antiquewhite;
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    color: green;
+    padding-top: 20%;
+}
+
+.body {
+    float: left;
+    height: 100%;
+    background-color: yellowgreen;
+    width: 70%;
+
+}
+
+.main-body {
+    height: 100vh;
+    width: 100%;
+}
+
+.body-right {
+    float: left;
+    height: 100%;
+    background-color: antiquewhite;
+    width: 15%;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+header {
+    height: 15%;
+    background-color: red;
+    text-align: center;
+    align-content: center;
+    border: 10px solid white;
+}
+
+.main {
+    height: 70%;
+    border: 10px solid white;
+}
+
+footer {
+    height: 15%;
+    background-color: rgb(39, 211, 241);
+    text-align: center;
+    align-content: center;
+    border: 10px solid white;
+
+}
+
+.navigation {
+    float: left;
+    height: 100%;
+    width: 25%;
+    background-color: blue;
+    text-align: center;
+    align-content: center;
+    border: 10px solid white;
+    border-top: 0px;
+    border-bottom: 0px;
+
+
+}
+
+.sidebar {
+    float: left;
+
+    height: 100%;
+    width: 15%;
+
+}
+
+.content {
+    float: left;
+    background-color: yellow;
+    height: 100%;
+    width: 60%;
+    color: black;
+    text-align: center;
+    align-content: center;
+    border: 10px solid white;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+.up {
+    height: 70%;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    align-content: center;
+    border: 10px solid white;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.down {
+    height: 30%;
+    width: 100%;
+    background-color: yellow;
+}
