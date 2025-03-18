@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8A</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            height: 100vh;
+            background-color: aliceblue;
+        }
+        .header{
+            height: 20%;
+           
+        }
+        .left{
+            float: left;
+            height: 100%;
+            width: 30%;
+            padding: 1%;
+        }
+        
+        .right{
+            float: right;
+            text-align: center;
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+          
+        
+        }
+        .right a{
+           
+            margin-top: 5%;
+            margin-left: 5%;
+            font-size: larger;
+            text-decoration: none;
+        }
+        .content{
+            height:50%;
+            width: 100%;
+            
+        
+        }
+        .content .image{
+          
+           height: 100%;
+           width: 100%;
+        }
+        .image img{
+            height:100%;
+            width: 100%;
+        }
+        .content .text{
+            top: 35%;
+            left: 40%;
+            position: absolute;
+            font-size: larger;
+        }
+        .footer{
+            height: 30%;
+            width: 100%;
+           
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .box{
+            border: 2px solid red;
+            height: 70%;
+            width: 20%;
+            text-align: center;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="left">
+                <image src="https://darshan.ac.in/Content/media/DU_Logo.svg" title="Darshan logo" height="100">
+            </div>
+            <div class="right">
+                <a href="home">Home</a>
+                <a href="home">About</a>
+                <a href="home">Services</a>
+                <a href="home">My Work</a>
+                <a href="home">Contact</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="image">
+                <img src="https://th.bing.com/th/id/OIP.zdaSpxoPHv8DaosKuhtu5wHaGE?rs=1&pid=ImgDetMain" >
+            </div>
+            <div class="text">
+                <h1>Hello, I am Web Developer</h1>
+                <p>I use HTML and CSS to convert webpage designs into beautiful and efficent Website</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="box">Program 1</div>
+            <div class="box">Program 2</div>
+            <div class="box">Program 3</div>
+            <div class="box">Program 4</div>
+        </div>
+    </div>
+</body>
+</html>

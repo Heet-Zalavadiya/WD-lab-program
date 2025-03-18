@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            height: 100vh;
+            background-color: violet;
+        }
+        .ball1{
+            height: 10%;
+            width: 5%;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            animation-name: bounce1;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+        }
+        .ball2{
+            height: 10%;
+            width: 5%;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            animation-name: bounce2;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+           
+        }
+        .ball3{
+            height: 10%;
+            width: 5%;
+            background-color :blueviolet;
+            border-radius: 50%;
+            position: absolute;
+            animation-name: bounce3;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+            
+        }
+        @keyframes bounce1{
+            0%{
+                top: 45%;
+                left: 0%;
+            }
+            33%
+            {
+                top:45%;
+                left: 95%;
+            }
+            66%{
+                top: 45%;
+                left: 45%;
+            }
+            100%{
+                top: 45%;
+                left: 0%;
+            }
+        }
+        @keyframes bounce2{
+            0%{
+                top: 45%;
+                left: 0%;
+            }
+            33%
+            {
+                top:45%;
+                left: 95%;
+            }
+            66%{
+                top: 0%;
+                left: 45%;
+            }
+            100%{
+                top: 45%;
+                left: 0%;
+            }
+        }
+        @keyframes bounce3{
+            0%{
+                top: 45%;
+                left: 0%;
+            }
+            33%
+            {
+                top:45%;
+                left: 95%;
+            }
+            66%{
+                top: 90%;
+                left: 45%;
+            }
+            100%{
+                top: 45%;
+                left: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="ball1"></div>
+        <div class="ball2"></div>
+        <div class="ball3"></div>
+    </div>
+    
+</body>
+</html>

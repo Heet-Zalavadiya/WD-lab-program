@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .content {
+            height: 100vh;
+            width: 70vw;
+        }
+
+        header {
+            height: 10%;
+            width: 100%;
+            background-color: rgb(43, 42, 42);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        header a {
+            text-decoration: none;
+            color: #efefef;
+        }
+
+        main {
+            height: 65%;
+            width: 100%;
+            background-color: #e1dede;
+        }
+
+        .heading {
+            height: 15%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .left {
+            float: left;
+            height: 85%;
+            width: 50%;
+
+        }
+
+        .left img {
+            height: 95%;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-left: 25%;
+        }
+
+        .right {
+            float: left;
+            height: 85%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .right span {
+            padding: 10px;
+            margin-top: 20px;
+            font-size: large;
+            font-weight: 500;
+            font-size: 15px;
+        }
+        .order{
+            background-color: rgb(255, 146, 13);
+            padding: 10px 30px;
+            border-radius: 5px;
+            color: white;
+            font-weight: 600;
+            font-size: 15px;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+        footer{
+            height: 25%;
+            width: 100%;
+            background-color: rgb(0, 9, 40);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #e1dede;
+        }
+        footer span{
+            margin-top: 60px;
+            line-height: 25px;
+            letter-spacing: 2px;
+        }
+        .offer{
+            background-color: rgb(255, 146, 13);
+            padding: 10px 50px;
+            border-radius: 5px;
+            color: white;
+            font-weight: 600;
+            font-size: 15px;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <a href="#">The book series</a>
+            <a href="#">Testimonials</a>
+            <a href="#">The Author</a>
+            <a href="#">Free resources</a>
+        </header>
+        <main>
+            <div class="heading">
+                <h2>You dont know JavaScript</h2>
+            </div>
+            <div class="left">
+                <img src="https://kaul.inf.h-brs.de/wem/assets/img/landing-img.png" alt="book">
+            </div>
+            <div class="right">
+                <span>Don't just drift through Javascript.</span>
+                <span>Understand how Javascript Works </span>
+                <span>Start your journy through bumpy side of Javascript</span>
+                <div class="order">
+                    ORDER YOUR COPY NOW
+                </div>
+            </div>
+        </main>
+        <footer>
+            <span>The first ebook series is absolutly free.</span>
+            <div class="offer">
+                Find out more about this offer
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
